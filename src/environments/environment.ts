@@ -3,7 +3,10 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  apiUsers: 'https://sign-language-translation-asl.herokuapp.com/users',
+  apiGuitars: 'https://sign-language-translation-asl.herokuapp.com/guitars',
+  apiKey: 'mcxjgprvtpryfympjuuhmjmzqngrtmkdjkwhwhemmsnyvaanypwjvkuusrsjnveb',
 };
 
 /*

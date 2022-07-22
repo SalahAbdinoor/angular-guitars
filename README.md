@@ -1,3 +1,14 @@
+## Dev Notes
+
+### API Endpoint
+
+- https://dce-noroff-api.herokuapp.com/guitars
+- https://dce-noroff-api.herokuapp.com/users
+
+### Dependency
+
+- https://www.npmjs.com/package/dotenv - Dotenv is a zero-dependency module that loads environment variables from a .env file into process.env.
+
 # NgGuitars
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.6.

@@ -1,0 +1,23 @@
+<aside class="absolute top-4 right-4">
+  <button
+    (click)="onFavouritesClick()"
+    class="border border-slate-300 rounded flex justify-center items-center p-2 text-pink-600"
+  >
+    <ng-container *ngIf="!loading; else spinner">
+      <ng-container
+        *ngIf="isFavourite; then favourite; else notFavourite"
+      ></ng-container>
+
+      <ng-template #favourite>
+        <span class="material-icons"> favorite </span>
+      </ng-template>
+      <ng-template #notFavourite>
+        <span class="material-icons"> favorite_border </span>
+      </ng-template>
+    </ng-container>
+
+    <ng-template #spinner>
+      <span class="material-icons animate-spin">refresh</span>
+    </ng-template>
+  </button>
+</aside>
