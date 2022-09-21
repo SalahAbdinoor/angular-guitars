@@ -4,9 +4,8 @@
     class="border border-slate-300 rounded flex justify-center items-center p-2 text-pink-600"
   >
     <ng-container *ngIf="!loading; else spinner">
-      <ng-container
-        *ngIf="isFavourite; then favourite; else notFavourite"
-      ></ng-container>
+      <ng-container *ngIf="isFavourite; then favourite; else notFavourite">
+      </ng-container>
 
       <ng-template #favourite>
         <span class="material-icons"> favorite </span>
